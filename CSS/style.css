@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600&family=Roboto+Slab&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  align-content: center;
+  background-color: #f0eced;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  background-color: #f0eced;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23e4c1c6' fill-opacity='0.1'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  background: #e4c1c6;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 80px;
+  max-width: 1280px;
+  overflow: auto;
+}
+
+.nav-wrapper a {
+  text-decoration: none;
+  color: #8e2735;
+}
+
+.logo-img {
+  margin: 0;
+  width: 80px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+  max-width: 100%;
+  min-height: 600px;
+  overflow: auto;
+}
+
+.img-container {
+  width: 240px;
+  height: 240px;
+  margin: auto;
+  margin-top: 160px;
+}
+
+.hero #my-image {
+  width: 240px;
+  height: 240px;
+  margin: 80px, auto;
+  border: none;
+  border-radius: 251094px;
+  box-shadow: 0px 16px 24px -4px rgba(142, 39, 53, 0.24);
+}
+
+.info,
+.btn-container {
+  text-align: center;
+  margin: 40px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+button {
+  background: #8e2735;
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: 32px;
+  height: 61px;
+  font-size: 24px;
+  gap: 100px;
+  width: 100%;
+}
+
+div .see-projects {
+  background: none;
+  color: #333333;
+  padding: 16px;
+  border: 2px solid #333333;
+  border-radius: 32px;
+  height: 61px;
+  font-size: 24px;
+  gap: 100px;
+}
+
+/* contact page */
+.contact-container{
+  margin: auto;
+}
+
+.form-container {
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f0eced;
+  border: 0.5px solid #e4c1c6;
+  font-size: 14px;
+  border-radius: 32px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #8e2735;
+}
+
+.contact-container p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.form-wrapper {
+  width: 400px;
+  max-width: 100%;
+  margin: auto;
+  /* border: 2px solid red; */
+}
+
+.submit-btn {
+  display: flex;
+}
+
+h6 {
+  position: absolute;
+  margin-top: 40px;
+  color: #333333;
+}
+
+.social-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 80px;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-container {
+  margin-top: 80px;
+  display: flex;
+  background: #e4c1c6;
+  height: 160px;
+  justify-content: center;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+textarea[type="text"],
+select[name="gender"],
+select[name="priority"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 0.2px solid #8e2735;
+  border-radius: 32px;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea[type="text"]:focus,
+select[name="gender"]:focus,
+select[name="priority"]:focus {
+  background-color: #ddd;
+  outline: none;
+}

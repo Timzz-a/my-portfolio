@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timilehin Sanni</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+
+      <!-- website navigation -->
+      <div class="navbar">
+        <nav class="nav-wrapper">
+          <div class="logo-img">
+            <a href="./index.html"><img class="logo" src="./img/logo.svg" alt="T.S logo"></a>
+          </div>
+            <ul class="nav-items"> 
+              <a href="./index.html"><li>Home</li></a>
+              <a href="#"><li>Portfolio</li></a>
+              <a href="#"><li>Resume</li></a>
+            </ul>
+    </div>
+        </nav>
+      </div>
+
+   <main class="contact-container">
+    <div class="form-container">
+      <h2>
+        Contact Me
+      </h2>
+      <br>
+     <hr>
+
+      <form class="form-wrapper" action="" method="post">
+        <br>
+        <h3>Please write me a message.</h3>
+        <br>
+
+        <label for="full_name">Full name</label>
+        <input type="text" name="full_name" placeholder="Enter your full name" required>
+        <br>
+        <label for="email">Email address</label>
+        <input type="email" name="email" placeholder="example@example.com" required>
+        <br>
+        <label for="message">Your message</label>
+        <br>
+        <textarea type="text" id="text" name="text" placeholder="Your message here..." rows="12" cols="100"></textarea>
+
+            <select type="priority" name="priority" required>
+              <option value="select_priority">Select Priority</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select> 
+            <br>
+            <div class="submit-btn">
+              <button type="submit">Send</button>
+            </div>
+        
+      </form>
+    </div>
+  </main>
+  
+  <!-- socials section -->
+  <footer class="footer-container">
+    <h6>Connect with me</h6>
+    <div class="social-wrapper">
+      <div class="social-items">
+        <a href="https://twitter.com/timzz_a" target="_blank"
+          ><img id="twitter" src="./img/twitter.svg"
+        /></a>
+        <a href="https://github.com/timzz-a" target="_blank"
+          ><img id="github" src="./img/github.svg"
+        /></a>
+        <a href="https://instagram.com/timzz_a" target="_blank">
+          <img id="instagram" src="./img/instagram.svg"
+        /></a>
+    </div>
+    </div>
+     
+  </footer>
+
+  </body>
+</html>
